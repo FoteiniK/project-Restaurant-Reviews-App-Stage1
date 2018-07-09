@@ -1,8 +1,8 @@
-#project-Restaurant Reviews App-Stage1
+# project-Restaurant Reviews App-Stage1
 Sixth project for Udacity's FEND nanodegree program.
 
 
-#Project Overview: Stage 1
+# Project Overview: Stage 1
 
 For this project,we are given a static design that lacks accessibility. We will convert this design to be responsive on different sized displays and accessible for screen reader use. We will also begin converting this to a Progressive Web Application by caching some assets for offline use.
 The given code has a lot of issues. It’s barely usable on a desktop browser or a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Our job is to update the code to resolve these issues while still maintaining the included functionality. 
