@@ -140,7 +140,6 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
 	const ul = document.getElementById('restaurants-list');
 	restaurants.forEach(restaurant => {
 		ul.append(createRestaurantHTML(restaurant));
-		// ul.setAttribute("tabindex","0");
 	});
 	addMarkersToMap();
 }
@@ -158,7 +157,7 @@ createRestaurantHTML = (restaurant) => {
 	image.setAttribute("tabindex", "0");
 	li.append(image);
 	li.setAttribute("role", "menuitem");
-	// li.setAttribute("tabindex","0");
+	
 
 	const name = document.createElement('h1');
 	name.innerHTML = restaurant.name;
