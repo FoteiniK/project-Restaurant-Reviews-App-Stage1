@@ -156,8 +156,8 @@ createRestaurantHTML = (restaurant) => {
 	image.setAttribute("alt", `${restaurant.name} restaurant`);
 	image.setAttribute("tabindex", "0");
 	li.append(image);
-	li.setAttribute("role", "menuitem");
-	
+	li.setAttribute("role", "listitem");
+
 
 	const name = document.createElement('h1');
 	name.innerHTML = restaurant.name;
