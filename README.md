@@ -20,9 +20,14 @@ The given code has a lot of issues. It’s barely usable on a desktop browser or
 
  Clone the repository or download the zip-file of the master branch.
 
+
+
 ### Prerequisites
-* Python
+_Python_ :
 If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+
+
+
 
 ### Installing
   In this folder,you need to start up a simple HTTP server to serve up the site files on your local computer by following those steps: 
@@ -33,6 +38,7 @@ If you don't have Python installed, navigate to Python's [website](https://www.p
 If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. 
 
 3. With your server running, visit the site: `http://localhost:8000`
+
 
 
 
